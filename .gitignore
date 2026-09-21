@@ -50,7 +50,7 @@ Thumbs.db
 *.swp
 
 #images and videos (too large)
-*.mp4
+# *.mp4
 # *.png
 # *.jpg 
 # *.jpeg 
