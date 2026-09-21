@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "6865ed8431be614b162fa0ec"
+  },
+  "id": 1,
+  "email": "steve.smith@plexsoftapps.com",
+  "password": "barfeethedog",
+  "role": "admin",
+  "business_name": "PlexsoftApps",
+  "name": {
+    "first_name": "Steven",
+    "middle_name": "E",
+    "last_name": "Smith"
+  },
+  "addresses": {
+    "address": {
+      "address_line_1": "2747 He-Nis-Ra Lane",
+      "address_line_2": "",
+      "city": "Green Bay",
+      "state": "WI",
+      "zip": "54304",
+      "timezone": "Central"
+    }
+  },
+  "contact-info": {
+    "phones": {
+      "phone": {
+        "type": "primary",
+        "number": "+1-920-671-4620"
+      }
+    }
+  },
+  "last_login_date": "",
+  "password_lastchanged": "",
+  "settings": {
+    "display_count": "40"
+  },
+  "status": "A",
+  "created_by": "",
+  "created_date": "",
+  "modified_by": "",
+  "modified_date": ""
+}

@@ -1,0 +1,90 @@
+.widget-type-post_filter .widget-module {
+    margin-bottom: 30px;
+    position: relative;
+    width: 200px;
+    padding: 7px 10px;
+    background: #5b6a81;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(50, 50, 50, 0.1);
+    cursor: pointer;
+    outline: 0;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 6px
+}
+
+.widget-type-post_filter .widget-module ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-weight: normal;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+    padding: 0px;
+    margin: 0px
+}
+
+.widget-type-post_filter .widget-module ul li {
+    margin-left: 0px
+}
+
+.widget-type-post_filter .widget-module>span:after {
+    content: '\25bc';
+    display: block;
+    width: 10px;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 10px;
+    font-family: FontAwesome;
+    font-size: 8px;
+    line-height: 0;
+    text-align: center
+}
+
+.widget-type-post_filter .widget-module.active ul {
+    opacity: 1;
+    pointer-events: auto
+}
+
+.widget-type-post_filter .widget-module ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #5b6a81;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 1);
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    font-family: Muli;
+    font-weight: 500
+}
+
+.widget-type-post_filter .widget-module ul li:first-of-type a {
+    border-radius: 7px 7px 0 0
+}
+
+.widget-type-post_filter .widget-module ul li:last-of-type a {
+    border: 0;
+    border-radius: 0 0 7px 7px
+}
+
+.widget-type-post_filter .widget-module ul li:hover a {
+    background: #5b6a81;
+    color: #fff
+}

@@ -1,0 +1,8 @@
+body .section-agency {
+    background-size: cover !important;
+    background-position: center center !important
+}
+
+body .section-agency .widget-type-custom_widget img {
+    display: none
+}

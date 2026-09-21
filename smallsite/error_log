@@ -1,0 +1,71 @@
+[13-Apr-2026 13:26:35 America/Boise] PHP Fatal error:  Uncaught ValueError: mime_content_type(): Argument #1 ($filename) cannot be empty in /home4/mypictv6/public_html/On-Site/admin.php:25
+Stack trace:
+#0 /home4/mypictv6/public_html/On-Site/admin.php(25): mime_content_type('')
+#1 {main}
+  thrown in /home4/mypictv6/public_html/On-Site/admin.php on line 25
+[13-Apr-2026 13:27:19 America/Boise] PHP Fatal error:  Uncaught ValueError: mime_content_type(): Argument #1 ($filename) cannot be empty in /home4/mypictv6/public_html/On-Site/admin.php:25
+Stack trace:
+#0 /home4/mypictv6/public_html/On-Site/admin.php(25): mime_content_type('')
+#1 {main}
+  thrown in /home4/mypictv6/public_html/On-Site/admin.php on line 25
+[14-Apr-2026 00:36:45 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/admin.php?key=oss-admin-2024
+[14-Apr-2026 00:36:45 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 00:53:06 America/Boise] Pub url=http://mypicturedayapp.com/On-Site/admin.php?key=%20oss-admin-2024
+[14-Apr-2026 00:53:06 America/Boise] path=http://mypicturedayapp.com/On-Site
+[14-Apr-2026 00:55:14 America/Boise] Pub url=http://mypicturedayapp.com/On-Site/admin.php?key=oss-admin-2024
+[14-Apr-2026 00:55:14 America/Boise] path=http://mypicturedayapp.com/On-Site
+[14-Apr-2026 00:56:10 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/?doc=osssopgeneric
+[14-Apr-2026 00:56:10 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 00:56:10 America/Boise] Upload dir=uploads/studio-instructions/
+[14-Apr-2026 00:56:10 America/Boise] Doc parm=osssopgeneric
+[14-Apr-2026 00:56:10 America/Boise] Looking for osssopgeneric
+[14-Apr-2026 00:56:10 America/Boise] path=uploads/studio-instructions/osssopgeneric.png
+[14-Apr-2026 00:56:10 America/Boise] path=uploads/studio-instructions/osssopgeneric.pdf
+[14-Apr-2026 00:56:10 America/Boise] Found.
+[14-Apr-2026 05:58:09 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/admin.php?key=oss-admin-2024
+[14-Apr-2026 05:58:09 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 08:38:39 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/index.php
+[14-Apr-2026 08:38:39 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 08:38:39 America/Boise] Upload dir=uploads/studio-instructions/
+[14-Apr-2026 08:38:39 America/Boise] PHP Warning:  Undefined array key "doc" in /home4/mypictv6/public_html/On-Site/index.php on line 10
+[14-Apr-2026 08:38:39 America/Boise] Doc parm=
+[14-Apr-2026 08:39:02 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/index.php?doc=OSS-SOP-Generic
+[14-Apr-2026 08:39:02 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 08:39:02 America/Boise] Upload dir=uploads/studio-instructions/
+[14-Apr-2026 08:39:02 America/Boise] Doc parm=OSS-SOP-Generic
+[14-Apr-2026 08:39:02 America/Boise] Looking for OSS-SOP-Generic
+[14-Apr-2026 08:39:02 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.png
+[14-Apr-2026 08:39:02 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.pdf
+[14-Apr-2026 08:39:02 America/Boise] Found.
+[14-Apr-2026 08:39:38 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/index.php?doc=OSS-SOP-Generic
+[14-Apr-2026 08:39:38 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 08:39:38 America/Boise] Upload dir=uploads/studio-instructions/
+[14-Apr-2026 08:39:38 America/Boise] Doc parm=OSS-SOP-Generic
+[14-Apr-2026 08:39:38 America/Boise] Looking for OSS-SOP-Generic
+[14-Apr-2026 08:39:38 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.png
+[14-Apr-2026 08:39:38 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.pdf
+[14-Apr-2026 08:39:38 America/Boise] Found.
+[14-Apr-2026 09:04:36 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/index.php?doc=OSS-SOP-Generic
+[14-Apr-2026 09:04:36 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 09:04:36 America/Boise] Upload dir=uploads/studio-instructions/
+[14-Apr-2026 09:04:36 America/Boise] Doc parm=OSS-SOP-Generic
+[14-Apr-2026 09:04:36 America/Boise] Looking for OSS-SOP-Generic
+[14-Apr-2026 09:04:36 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.png
+[14-Apr-2026 09:04:36 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.pdf
+[14-Apr-2026 09:04:36 America/Boise] Found.
+[14-Apr-2026 09:04:57 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/?doc=test
+[14-Apr-2026 09:04:57 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 09:04:57 America/Boise] Upload dir=uploads/studio-instructions/
+[14-Apr-2026 09:04:57 America/Boise] Doc parm=test
+[14-Apr-2026 09:04:57 America/Boise] Looking for test
+[14-Apr-2026 09:04:57 America/Boise] path=uploads/studio-instructions/test.png
+[14-Apr-2026 09:04:57 America/Boise] path=uploads/studio-instructions/test.pdf
+[14-Apr-2026 09:04:57 America/Boise] Found.
+[14-Apr-2026 11:14:01 America/Boise] Pub url=https://mypicturedayapp.com/On-Site/admin.php?key=oss-admin-2024
+[14-Apr-2026 11:14:01 America/Boise] path=https://mypicturedayapp.com/On-Site
+[14-Apr-2026 11:18:50 America/Boise] Upload dir=uploads/studio-instructions/
+[14-Apr-2026 11:18:50 America/Boise] Doc parm=OSS-SOP-Generic
+[14-Apr-2026 11:18:50 America/Boise] Looking for OSS-SOP-Generic
+[14-Apr-2026 11:18:50 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.png
+[14-Apr-2026 11:18:50 America/Boise] path=uploads/studio-instructions/OSS-SOP-Generic.pdf
+[14-Apr-2026 11:18:50 America/Boise] Found.

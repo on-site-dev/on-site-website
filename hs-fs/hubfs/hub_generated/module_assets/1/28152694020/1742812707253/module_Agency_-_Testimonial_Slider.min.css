@@ -1,0 +1,93 @@
+.clientsTestimonialSlider h2.title {
+    margin: 0px 0px 20px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 48px;
+    color: #222;
+    margin-bottom: 50px;
+    display: inline-block
+}
+
+.clientsTestimonialSlider .clients {
+    position: relative;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    padding: 50px 30px 30px
+}
+
+.clientsTestimonialSlider .clients .quteo {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 35px;
+    right: 0;
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    height: 35px;
+    z-index: 3;
+    color: #1c2d47;
+    font-size: 52px;
+    line-height: 56px;
+    z-index: 99;
+    background-color: #fff
+}
+
+.clientsTestimonialSlider .info {
+    color: #878787;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+.clientsTestimonialSlider .name {
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600
+}
+
+.clientsTestimonialSlider .designation {
+    font-size: 12px;
+    line-height: 18px;
+    color: #cfcfcf
+}
+
+.clientsTestimonialSlider .owl-controls {
+    position: absolute;
+    top: -80px;
+    right: 0
+}
+
+.clientsTestimonialSlider .owl-item {
+    padding: 20px 0;
+    position: relative;
+    z-index: 9
+}
+
+.clientsTestimonialSlider .owl-controls .owl-nav div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    display: inline-block;
+    color: #1ab0d3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: bold
+}
+
+.clientsTestimonialSlider .owl-controls .owl-nav .owl-prev {
+    margin-right: 20px
+}
+
+@media(max-width:768px) {
+    .clientsTestimonialSlider h2.title {
+        font-size: 30px;
+        line-height: 36px
+    }
+    .clientsTestimonialSlider .owl-controls {
+        display: none
+    }
+}

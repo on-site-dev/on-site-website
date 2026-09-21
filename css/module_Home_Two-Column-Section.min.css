@@ -1,0 +1,23 @@
+.home-two-section:before {
+    background-color: var(--my-color);
+    opacity: var(--my-color-opacity);
+    content: ' ';
+    display: block;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+.home-two-section {
+    position: relative
+}
+
+body .row-fluid .ui-section-two-col .left-col,
+body .row-fluid .ui-section-two-col.reverted-position .right-col,
+body .row-fluid .ui-section-two-col .right-col,
+body .row-fluid .ui-section-two-col.reverted-position .left-col {
+    position: relative
+}

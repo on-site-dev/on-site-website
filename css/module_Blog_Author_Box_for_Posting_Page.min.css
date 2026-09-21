@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: bottom
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,400,400i,700,700i&display=swap');
+.page-centers {
+    max-width: 1170px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    padding: 0
+}
+
+.dis-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.about-author-sec.dis-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 30px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px
+}
+
+.blog-author-img {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 30px
+}
+
+.blog-author-content {
+    width: calc(100% - 121px);
+    margin-top: -16px;
+    margin-bottom: 0
+}
+
+.author-sections .blog-author-content h3 a {
+    font-family: 'Poppins', sans-serif
+}
+
+.author-sections .hs-author-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+
+.author-sections .blog-author-content p {
+    font-weight: 400;
+    font-size: 14px
+}
+
+.author-sections .blog-author-content h3 {
+    font-size: 30px
+}
+
+@media(max-width:1024px) {
+    .author-sections .blog-author-content h3 {
+        font-size: 24px
+    }
+}
+
+@media(max-width:840px) {
+    .author-sections .blog-author-content h3 {
+        font-size: 22px
+    }
+    .blog-author-img {
+        width: 90px;
+        height: 90px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 3px solid rgba(0, 0, 0, 0.2);
+        margin: 0 auto
+    }
+    .blog-author-content {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: center
+    }
+    .author-sections .hs-author-social-links {
+        justify-content: center
+    }
+}
+
+@media(max-width:568px) {
+    .about-author-sec.dis-flex {
+        padding: 30px 15px
+    }
+}

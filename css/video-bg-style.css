@@ -1,0 +1,94 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/****************************************/
+/* HubSpot Style Boilerplate            */
+/****************************************/
+
+/* These includes are optional, but helpful. */
+{% include "hubspot/styles/responsive/modules.css" %}
+{% include "hubspot/styles/patches/recommended.css" %}
+
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+.video-bg .video-object {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.video-bg {
+    position: relative;
+    z-index: 1;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: scroll !important;
+}
+.video-bg .video-object video {
+    width: auto;
+    height: auto;
+    max-width: none;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.video-bg.hero-section:before {
+    z-index: 0;
+    background-color: #1c2d47;
+  opacity: 0.7;
+}
+.video-bg.hero-section .span12.widget-span.widget-type-rich_text{
+  position:relative;
+}
+
+.topSection-addon-bottom {
+    /* background-image: url(https://prospectdirect.com/wpstagemct/wp-content/uploads/2018/08/inner-footer-curve.svg);*/
+    background-image: url(https://cdn2.hubspot.net/hubfs/7145159/notch-1.png);
+    z-index: 0;
+    top: auto;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    height: 50%;
+}
+.video-bg-page .video-bg .wrapper{
+  position: relative;
+  z-index: 2;
+}
+body.blog .video-bg.hero-section:before{
+  z-index: 0;
+}
+.lpvideo2 .video-bg.hero-section .row-fluid a.cta_button{
+  background: transparent !important;
+  border:2px solid #fff !Important;
+      padding: 15px 25px !Important;
+}
+.lpvideo2 .video-bg.hero-section .row-fluid a.cta_button:hover{
+  color: #fff !Important;
+}
+body.blog .blog-none-editable, body.blog .blog-editable{position: relative;}
+@media (max-width: 1500px) {
+  .fullscreen-bg__video {
+    top: -230px;
+}
+}

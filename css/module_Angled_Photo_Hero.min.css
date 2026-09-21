@@ -1,0 +1,20 @@
+.section-bg.hero-section.anglephoto:before {
+    display: none
+}
+
+.overlay_bg {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+body .section-bg.hero-section .angle-background-image img {
+    display: none !important
+}
+
+body .section-bg.hero-section img {
+    display: inline-block
+}
