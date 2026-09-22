@@ -250,7 +250,7 @@
                     $videos[] = str_replace(" ","%20","SAMPLE-04-Holiday Healthy Cooking - Entree PROOF 2.mp4");
                     $videos[] = str_replace(" ","%20","SAMPLE-05-SIRMC Ben Thomas Ortho Testimonial.mp4");
                     $videos[] = str_replace(" ","%20","SAMPLE-06-Why are Mammograms Important-Updated Branding.mp4");
-                    $posters = array("our_work-video1.png", "our_work-video2.png", "our_work-video3.png", "our_work-video4.png");
+                    $posters = array("our_work-video2.png", "our_work-video3.png", "our_work-video4.png", "our_work-video5.png");
                     error_log(print_r($videos,true));
                 ?>
                 <div class="row-fluid-wrapper row-depth-1 row-number-10 " style="margin-bottom:1vh;">
@@ -307,7 +307,7 @@
                     $videos[] = str_replace(" ","%20","SAMPLE-08-What a heart attack is and how it occurs.mp4");
                     $videos[] = str_replace(" ","%20","SAMPLE-09- PTSD_PTSD Awareness Month_2023-1.mp4");
                     $videos[] = str_replace(" ","%20","SAMPLE-10-Stephen Early-NICU Story-Commercial Edit-Final.mp4");
-                    $posters = array("our_work-video5.png", "our_work-video6.png", "our_work-video7.png", "our_work-video8.png");
+                    $posters = array("our_work-video1.png", "our_work-video6.png", "our_work-video7.png", "our_work-video8.png");
                     error_log(print_r($videos,true));
                 ?>
                 <div class="row-fluid-wrapper row-depth-1 row-number-10 " style="margin-bottom:1vh;">

@@ -29,7 +29,7 @@
                                                                             <div class="row-fluid " style="">
                                                                                 <div class="span3 widget-span widget-type-custom_widget logo" style="width:100%;margin-top:1px;" data-widget-type="custom_widget" data-x="0" data-w="3">
                                                                                     <div id="hs_cos_wrapper_module_1593700146758311" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="color:red;" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                                                                                        <img src="images/ONSITE-LOGO-New-Web-Small-White-300x139-1.png" alt="On-Site Studios">Version 2.1</img>
+                                                                                        <img src="images/ONSITE-LOGO-New-Web-Small-White-300x139-1.png" alt="On-Site Studios"></img>
                                                                                     </div>
 
                                                                                 </div>

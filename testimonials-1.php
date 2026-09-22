@@ -204,7 +204,7 @@
                 while ($counter < count($videos))
                 {
                 ?>
-                <div class="row-fluid-wrapper row-depth-1 row-number-10 ">
+                <div class="row-fluid-wrapper row-depth-1 row-number-10 " style="height:50%;">
                     <div class="row-fluid ">
                         <div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
                             <div id="hs_cos_wrapper_module_1591023720281156" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
@@ -250,7 +250,7 @@
                     </div>
                     <!--end row-->
                 </div>
-                <div style="height:550px"></div>
+                <div style="height:50px"></div>
                 <?php 
                 }
                 ?>

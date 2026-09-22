@@ -61,6 +61,7 @@
                                                                                         </a>
                                                                                                                                                                                     </li>
                                                                                 </ul>
+                                                                                <p>Version 2.1</p>
                                                                             </div>
 
                                                                             <style>
