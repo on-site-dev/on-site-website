@@ -153,9 +153,13 @@
 <?php
     include_once 'header.php';
 
+    $videos = array();
+    $videos[] = str_replace(" ","%20","Generic Chamber Sales Pitch to Chambers 2.mp4");
+
     $posters = array("OSS%20Cart%201023.png", 
                     "V4%20On-Site%20Studios%20Recruitment%20Video%20-%20PROOF%206.00_01_14_05.Still002-1.jpg", 
-                    "2024%20Trade%20Show%20Video%20PROOF%203.00_02_08_08.Still007-4.jpg");
+                    "2024%20Trade%20Show%20Video%20PROOF%203.00_02_08_08.Still007-4.jpg",
+                    "Onsite-Poster.png");
     error_log(print_r($videos,true));
 
 ?>
@@ -176,6 +180,77 @@
                 ***************** -->
                 <!-- <h1> This is where the page goes </h1>
             </div> -->
+
+            <!-- Chamber Video  -->
+            <div class="row-fluid-wrapper row-depth-1 row-number-1" style="background-color:white;">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+                        <div id="hs_cos_wrapper_module_1591272343801505" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                            <div class="span12 home-two-section widget-span widget-type-cell ui-section-two-col " style=" ">
+
+                                <div class="row-fluid-wrapper">
+                                    <div class="row-fluid ">
+                                        <div class="span12 widget-span widget-type-cell equal-height-container">
+
+                                            <div class="row-fluid-wrapper">
+                                                <div class="row-fluid ">
+                                                    <div class="span6 widget-span widget-type-cell left-col vertical-center animated wow slideInRight">
+
+                                                        <div class="row-fluid-wrapper">
+                                                            <div class="row-fluid">
+                                                                <div class="span12 widget-span widget-type-rich_text text-sec ">
+                                                                    <div class="cell-wrapper layout-widget-wrapper">
+                                                                        <span id="hs_cos_wrapper_module_151634733609885" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"><h3>A community based production solution for businesses of all sizes.</h3>
+                                                                            <h2><strong><span style="color: #22084c;">Chamber of Commerce Partnership Program</span></strong><span style="color: #22084c;"></span></h2>
+                                                                            <p>On-Site Studios is pleased to launch a new partnership program with Chamber of Commerce organizations in communities around the country. This program allows
+                                                                                Chambers to offer On-Site’s state of the art, remote video production process to all of
+                                                                                their members, allowing professional video production, streaming, photo, and animation
+                                                                                services to local businesses of all sizes, at heavily discounted production rates.
+                                                                            </p>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="span6 widget-span widget-type-cell right-col vertical-center wow animated slideInLeft" style="">
+
+                                                        <div class="row-fluid-wrapper">
+                                                            <div class="row-fluid ">
+                                                                <div class="span12 widget-span widget-type-linked_image ">
+                                                                    <div class="cell-wrapper layout-widget-wrapper">
+                                                                        <span id="hs_cos_wrapper_module_151634745499993" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image">
+                                                                            <video width="1920" height="1080" controls poster="images/<?php echo($posters[3]); ?>">
+                                                                                <source src="videos/<?php echo($videos[0]); ?>" type="video/mp4">
+                                                                            </video>                                                                            
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--end widget-span -->
+                    </div>
+                    <!--end row-->
+                </div>
+                <hr style="height:3px;" />
+
+            </div>
+                <!--end row-wrapper -->
+
+            <!-- Other sections  -->
             <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
                 <div class="row-fluid ">
                     <div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
@@ -918,9 +993,12 @@
                         <!--end row-wrapper -->
 
 
-                <?php include_once 'reimagine.php'; ?>
+                
+                        <?php include_once 'reimagine.php'; ?>
 
 
+                
+                
                 <!-- ************************************************************ -->
                 <!-- FOOTER SECTION  -->
                 <!-- ************************************************************ -->
